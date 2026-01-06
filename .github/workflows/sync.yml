@@ -1,0 +1,41 @@
+name: Update Dashboard
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write  # This grants the Action permission to push commits
+  
+jobs:
+  observe_and_visualize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install Viz Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          # This extra line ensures the 'kaleido' binary is in the system path
+          pip install --upgrade kaleido==0.2.1
+      
+      - name: Execute Dashboard
+        run: |
+          papermill dashboard.ipynb dashboard.ipynb
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/*.csv dashboard.ipynb dashboard_preview.png
+          git commit -m "update: dashboard and preview image" || exit 0
+          git push

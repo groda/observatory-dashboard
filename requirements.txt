@@ -1,0 +1,6 @@
+pandas
+plotly
+papermill
+ipykernel
+nbformat>=5.10.4
+kaleido==0.2.1
