@@ -1,0 +1,43 @@
+date,repository,type,count,uniques
+"2026-01-05~ 14-day total","username/observed-repo1","clones_total",387,119
+"2026-01-05~ 14-day total","username/observed-repo1","views_total",661,5
+"2026-01-05","username/observed-repo1","clones",3,2
+"2026-01-05","username/observed-repo1","views",5,1
+"2026-01-04","username/observed-repo1","clones",57,23
+"2026-01-04","username/observed-repo1","views",61,1
+"2026-01-03~ 14-day total","username/observed-repo1","clones_total",346,112
+"2026-01-03~ 14-day total","username/observed-repo1","views_total",670,5
+"2026-01-03","username/observed-repo1","clones",2,2
+"2026-01-03","username/observed-repo1","views",9,1
+"2026-01-02~ 14-day total","username/observed-repo1","clones",366,114
+"2026-01-02","username/observed-repo1","clones",39,14
+"2026-01-02","username/observed-repo1","views",81,1
+"2026-01-01~ 14-day total","username/observed-repo1","clones",330,104
+"2026-01-01","username/observed-repo1","clones",11,6
+"2026-01-01","username/observed-repo1","views",77,1
+"2025-12-31~ 14-day total","username/observed-repo1","clones",322,103
+"2025-12-31","username/observed-repo1","clones",32,13
+"2025-12-31","username/observed-repo1","views",107,1
+"2025-12-30","username/observed-repo1","clones",16,8
+"2025-12-30","username/observed-repo1","views",36,2
+"2025-12-29","username/observed-repo1","clones",50,16
+"2025-12-29","username/observed-repo1","views",95,2
+"2025-12-28","username/observed-repo1","clones",53,17
+"2025-12-28","username/observed-repo1","views",84,1
+"2025-12-27","username/observed-repo1","clones",117,35
+"2025-12-27","username/observed-repo1","views",100,2
+"2025-12-26","username/observed-repo1","clones",0,0
+"2025-12-26","username/observed-repo1","views",4,1
+"2025-12-25","username/observed-repo1","clones",1,1
+"2025-12-25","username/observed-repo1","views",1,1
+"2025-12-24","username/observed-repo1","clones",1,1
+"2025-12-24","username/observed-repo1","views",1,1
+"2025-12-23","username/observed-repo1","clones",5,3
+"2025-12-23","username/observed-repo1","views",0,0
+"2025-12-22","username/observed-repo1","clones",38,16
+"2025-12-22","username/observed-repo1","views",55,1
+"2025-12-21","username/observed-repo1","clones",1,1
+"2025-12-21","username/observed-repo1","views",0,0
+"2025-12-20","username/observed-repo1","clones",2,2
+"2025-12-19","username/observed-repo1","clones",3,3
+"2025-12-18","username/observed-repo1","clones",3,3

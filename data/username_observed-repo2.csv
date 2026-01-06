@@ -1,0 +1,47 @@
+date,repository,type,count,uniques
+"2026-01-04~ 14-day total","username/observed-repo2","clones_total",187,91
+"2026-01-04~ 14-day total","username/observed-repo2","views_total",371,3
+"2026-01-04","username/observed-repo2","clones",28,11
+"2026-01-04","username/observed-repo2","views",27,1
+"2026-01-03~ 14-day total","username/observed-repo2","clones_total",159,82
+"2026-01-03~ 14-day total","username/observed-repo2","views_total",344,3
+"2026-01-03","username/observed-repo2","clones",2,2
+"2026-01-03","username/observed-repo2","views",4,1
+"2026-01-02~ 14-day total","username/observed-repo2","clones",157,81
+"2026-01-02~ 14-day total","username/observed-repo2","clones_total",157,81
+"2026-01-02~ 14-day total","username/observed-repo2","views_total",340,3
+"2026-01-02","username/observed-repo2","clones",11,7
+"2026-01-02","username/observed-repo2","views",21,1
+"2026-01-01~ 14-day total","username/observed-repo2","clones",146,75
+"2026-01-01","username/observed-repo2","clones",0,0
+"2026-01-01","username/observed-repo2","views",40,2
+"2025-12-31~ 14-day total","username/observed-repo2","clones",147,76
+"2025-12-31","username/observed-repo2","clones",10,5
+"2025-12-31","username/observed-repo2","views",22,2
+"2025-12-30~ 14-day total","username/observed-repo2","clones",137,73
+"2025-12-30","username/observed-repo2","clones",42,17
+"2025-12-30","username/observed-repo2","views",119,1
+"2025-12-29","username/observed-repo2","clones",16,8
+"2025-12-29","username/observed-repo2","views",32,2
+"2025-12-28","username/observed-repo2","clones",73,46
+"2025-12-28","username/observed-repo2","views",106,1
+"2025-12-27","username/observed-repo2","clones",1,1
+"2025-12-27","username/observed-repo2","views",0,0
+"2025-12-26","username/observed-repo2","clones",0,0
+"2025-12-26","username/observed-repo2","views",0,0
+"2025-12-25","username/observed-repo2","clones",2,2
+"2025-12-25","username/observed-repo2","views",0,0
+"2025-12-24","username/observed-repo2","clones",0,0
+"2025-12-24","username/observed-repo2","views",0,0
+"2025-12-23","username/observed-repo2","clones",1,1
+"2025-12-23","username/observed-repo2","views",0,0
+"2025-12-22","username/observed-repo2","clones",1,1
+"2025-12-22","username/observed-repo2","views",0,0
+"2025-12-21","username/observed-repo2","clones",0,0
+"2025-12-21","username/observed-repo2","views",0,0
+"2025-12-20","username/observed-repo2","clones",0,0
+"2025-12-20","username/observed-repo2","views",0,0
+"2025-12-19","username/observed-repo2","clones",0,0
+"2025-12-18","username/observed-repo2","clones",1,1
+"2025-12-17","username/observed-repo2","clones",0,0
+"2025-12-16","username/observed-repo2","clones",0,0
