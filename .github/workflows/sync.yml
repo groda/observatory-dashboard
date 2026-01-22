@@ -1,5 +1,12 @@
 name: Update Dashboard
 
+# Concurrency ensures that only one "Update Dashboard" run happens at a time
+concurrency:
+  # The 'group' defines what runs belong together (Workflow Name + Branch)
+  group: ${{ github.workflow }}-${{ github.ref }}
+  # If a new run starts while an old one is still running, kill the old one
+  cancel-in-progress: true
+  
 on:
   push:
     branches: [ main ]
@@ -14,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
+      
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
@@ -36,6 +43,14 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/*.csv dashboard.ipynb dashboard_preview.png
+          
+          git add dashboard.ipynb dashboard_preview.png
+          
+          # Commit only if there are changes (the || exit 0 prevents failure if nothing changed)
           git commit -m "update: dashboard and preview image" || exit 0
+
+          # REBASE: If the remote moved forward while we were running, 
+          # this pulls those changes and puts our new commit on top of them.
+          git pull --rebase origin main
+          
           git push
